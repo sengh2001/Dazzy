@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Application</title>
+  <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Application</h1>
+
+    
+    <div>
+      <label for="cityDropdown">Choose a city:</label>
+      <select id="cityDropdown">
+        <option value="">-- Select a city --</option>
+        <option value="New York">New York</option>
+        <option value="London">London</option>
+        <option value="Tokyo">Tokyo</option>
+        <option value="Sydney">Sydney</option>
+      </select>
+    </div>
+
+    
+    <div>
+      <label for="customCity">Or enter a city:</label>
+      <input type="text" id="customCity" placeholder="Enter city name">
+    </div>
+
+   
+    <button id="searchButton">Search</button>
+
+    
+    <div id="output" class="output">
+      
+    </div>
+  </div>
+
+  <script src="weather.js"></script>
+</body>
+</html>
